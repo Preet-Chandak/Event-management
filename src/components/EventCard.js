@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types'; // Import PropTypes
 import { Link } from "react-router-dom";
+import "./style/EventCard.css"
 
 const EventCard = ({ id, heading, date, location, img }) => {
   const { year, month } = date;
